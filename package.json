@@ -1,0 +1,25 @@
+{
+  "name": "nodejst",
+  "version": "1.0.0",
+  "description": "nodejs learning",
+  "main": "firstserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandu9696/chandu.git"
+  },
+  "keywords": [
+    "NodeLearn"
+  ],
+  "author": "Chandrakant Gaikwad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandu9696/chandu/issues"
+  },
+  "homepage": "https://github.com/chandu9696/chandu#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
