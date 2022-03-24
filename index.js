@@ -19,7 +19,7 @@ http.createServer(function(req,res)
 }).listen(8000);//Listen to this port(we have ip adderess(locahost in this case): 8000 is port)*/
 
 //Add command input
-
+/*
 fs=require('fs');
 
 const input=process.argv;
@@ -35,3 +35,21 @@ else
 {
     console.log('invalid input')
 }
+*/
+
+a=10
+b=0
+
+let waitingdata=new Promise((resolve,reject)=>
+{
+    setTimeout(()=>
+    {
+        resolve(30);//it can be anyting object array
+    },2000);
+    
+})
+
+waitingdata.then((data)=>
+{
+    console.log(a+data);
+})
