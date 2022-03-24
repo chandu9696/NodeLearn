@@ -37,6 +37,7 @@ else
 }
 */
 
+/*
 a=10
 b=0
 
@@ -53,3 +54,19 @@ waitingdata.then((data)=>
 {
     console.log(a+data);
 })
+*/
+const express=require('express');
+
+const app=express();
+
+
+app.get('',(req,res)=>
+{
+    res.send("Hello this Home Page");
+})
+app.get('/help',(req,res)=>
+{
+    res.send("Hello this Help Page");
+})
+
+app.listen(8000);
